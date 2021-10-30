@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/", // 输出目录
+        // "sourceMap": true, // 如果要启用sourceMap，必须启用这里的配置，且在webpack也进行配置
+        "noImplicitAny": true,
+        "declaration": true,
+        "declarationMap": true, // true会为.d.ts生成source map文件，可以跳转到原始的.ts源文件
+        "module": "esNext",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "lib": [
+            "es5",
+            "dom",
+            "es2015.promise"
+        ],
+        // "rootDir": "src", //如果没有明确指定 rootDir，则默认为包含 tsconfig.json 文件的目录
+    },
+    "include": ["src/*"]
+}

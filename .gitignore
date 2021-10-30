@@ -1,0 +1,11 @@
+node_modules
+**/.DS_Store
+*.log
+dist
+mpdist
+.cache
+.env
+**/.yarn/cache
+**/.yarn/install-state.gz
+miniprogram_npm
+TCBSAM.yaml
